@@ -139,6 +139,7 @@ body{
 .botao{
     margin-top: 20px;
     text-align: center;
+    width: 65%;
 }
 
 #entrar{
@@ -159,6 +160,10 @@ body{
 
 .table_login input{
     width: 100%;
+}
+
+.table_cadastro{
+    width: 150%;
 }
 
 #table_login{
