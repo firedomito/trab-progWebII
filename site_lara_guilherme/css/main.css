@@ -134,52 +134,16 @@ body{
 }
 
 
-.botao{
-    margin-top: 20px;
-    text-align: center;
-    width: 65%;
-}
-
-#entrar{
-    font-size: 13pt;
-}
-
-.table_login{
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    display: block;
-    width: 70%;
-}
-
-.table_login form{
-    padding-left: 10px;
-}
-
-.table_login input{
-    width: 100%;
-}
-
-.table_cadastro{
-    width: 150%;
-}
-
-#table_login{
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
 .table_historico{
     border-collapse: collapse;
     width: 100%;
 }
 
 .table_historico th, td{
-    text-align: left;
-    padding: 8px;
     text-align: center;
+    padding: 8px;
 }
+
 
 .table_historico tr:nth-child(even){
     background-color:  #f2f2f2;
@@ -190,43 +154,67 @@ body{
     color: white;
 }
 
-#table_cadastro{
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
-.botao{
-    margin-top: 20px;
-    text-align: center;
-}
 
 #sobre_nos{
     text-align: justify;
 }
 
-#login{
+/* Inicio CSS cadastro */
+.formcad{
     border: none;
     width: 40%;
     margin: 0px auto;
 }
 
-#cadastro{
-    border: none;
-    width: 40%;
-    margin: 0px auto;
+.formcad label{
+    display: inline-block;
+    width: 110px;
+    
 }
 
-#cadastro input{
+.formcad input{
     width: 60%;
 }
 
-label{
-    display: inline-block;
-    width: 90px;
+.botao_cad{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.cadastro {
-    display: inline-block;
-    width: 40%;
+#confirmar_cad{
+    font-size: 13pt;
 }
+
+/* Inicio CSS Login */
+.login{
+    border: none;
+    width: 40%;
+    margin: 0px auto;
+}
+
+.login label{
+    text-align: justify;
+    display: inline-block;
+    width: 76px;
+}
+
+#form_login{
+    text-align: center;   
+}
+
+.botao_login{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#confirmar_login{
+    font-size: 13pt;
+}
+
+
+
+
