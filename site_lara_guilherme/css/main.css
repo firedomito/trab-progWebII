@@ -112,6 +112,7 @@ body{
     0px 3px 5px -1px rgba(0,0,0, 0.3),
     0px 6px 10px 0px rgba(0,0,0, 0.14),
     0px 1px 18px -0px rgba(0,0,0, 0.12);
+    border-radius: 10px;
 }
 
 .table_content{
@@ -171,7 +172,7 @@ body{
 /* Inicio CSS cadastro */
 .formcad{
     border: none;
-    width: 40%;
+    width: 45%;
     margin: 0px auto;
 }
 
@@ -224,6 +225,9 @@ body{
     font-size: 13pt;
 }
 
-
-
+footer{
+    background-color: #C9D7E1;
+    margin: 50px;
+    font-size: 12pt;
+}
 
