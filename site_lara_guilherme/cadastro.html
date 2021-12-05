@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Estacioney</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/cadastro.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
     <link rel="shortcut icon" type="imagex/png" href="imagem/logo_estacioney.png">
 </head>
 <body>
@@ -28,44 +28,30 @@
     <div class="body_content">
         <h1 class="body_title">Cadastro</h1>
 
-        <nav class="table_content">
-            <table id="table_cadastro">
-                <tr>
-                    <td>Nome:</td>
-                    <td><form method="get"><input type="text" name="nome" maxlength="45"></form></td>
-                </tr>
-                <tr>
-                    <td>Email:</td>
-                    <td><form method="get"><input type="text" name="email"  maxlength="45"></form></form></td>
-                </tr>
-                <tr>
-                    <td>Telefone:</td>
-                    <td><form method="get"><input type="text" name="telefone"  maxlength="20"></form></td>
-                </tr>
-                <tr>
-                    <td>Nascimento:</td>
-                    <td><form method="get"><input type="date" name="nascimento" maxlength="20"></form></td>
-                </tr>
-                <tr>
-                    <td>CPF/CNPJ:</td>
-                    <td><form method="get"><input type="text" name="cpf" maxlength="20"></form></td>
-                </tr>
-                <tr>
-                    <td>Senha:</td>
-                    <td><form method="get"><input type="text" name="cpf" maxlength="20"></form></td>
-                </tr>
-                <tr>
-                <td><label for="sexo">Sexo:</label></td>
-                <td id="dropdown_sexo"><select id="sexo" name="sexo">
-                    <option value="fem" selected>Feminino</option>
-                    <option value="masc">Masculino</option>
-                    <option value="nb">Não binário</option>
-                    <option value="pnd">Prefiro não declarar</option>
-                </select></td>
-                </tr>
-            </table>
+            <form>
+                <fieldset id="cadastro">
+                    <label>Nome</label>
+                    <input type="text" name="nome" maxlength="45">
+                    <label>E-mail</label>
+                    <input type="text" name="email"  maxlength="45">
+                    <label>Telefone</label>
+                    <input type="text" name="telefone"  maxlength="20">
+                    <label>Nascimento</label>
+                    <input type="date" name="nascimento" maxlength="20">
+                    <label>CPF/CNPJ</label>
+                    <input type="text" name="cpf" maxlength="20">
+                    <label>Senha</label>
+                    <input type="password" name="password" maxlength="20">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo">
+                        <option value="fem" selected>Feminino</option>
+                        <option value="masc">Masculino</option>
+                        <option value="nb">Não binário</option>
+                        <option value="pnd">Prefiro não declarar</option>
+                    </select>
+                </fieldset>
+            </form>
             <nav class="botao"><button type="submit" id="entrar">Cadastrar</button></nav>
-        </nav>
     </div>
 
     <footer>Todos os direitos reservados</footer>

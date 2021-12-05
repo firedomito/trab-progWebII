@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
 }
 
@@ -170,4 +168,65 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+.table_historico{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_historico th, td{
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+.table_historico tr:nth-child(even){
+    background-color:  #f2f2f2;
+}
+
+.table_historico th{
+    background-color:  #0F3F63;
+    color: white;
+}
+
+#table_cadastro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.botao{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#sobre_nos{
+    text-align: justify;
+}
+
+#login{
+    border: none;
+    width: 40%;
+    margin: 0px auto;
+}
+
+#cadastro{
+    border: none;
+    width: 40%;
+    margin: 0px auto;
+}
+
+#cadastro input{
+    width: 60%;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+}
+
+.cadastro {
+    display: inline-block;
+    width: 40%;
 }

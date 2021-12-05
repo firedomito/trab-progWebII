@@ -27,20 +27,19 @@
 
     <div class="body_content">
         <h1 class="body_title">Login</h1>
-
-        <nav class="table_cadastro">
-            <table class="table_login">
-                <tr>
-                    <td>E-mail</td>
-                    <td><form method="get"><input type="text" name="email" size=30% maxlength="45"></form></td>
-                </tr>
-                <tr>
-                    <td>Senha</td>
-                    <td><form method="get"><input type="password" name="password" size=30% maxlength="30"></form></td>
-                </tr>
-            </table>
+            <form>
+                <fieldset id="login">
+                    <div>
+                        <label>Usuário</label>
+                        <input type="text" name="usuario" id="usuario">
+                    </div>
+                    <div>
+                        <label>Senha</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                </fieldset>
+            </form>
             <nav class="botao"><button type="submit" id="entrar">Entrar</button></nav>
-        </nav>
     </div>
 
     <footer>Todos os direitos reservados</footer>
