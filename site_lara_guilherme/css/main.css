@@ -108,6 +108,12 @@ body{
     0px 3px 5px -1px rgba(0,0,0, 0.3),
     0px 6px 10px 0px rgba(0,0,0, 0.14),
     0px 1px 18px -0px rgba(0,0,0, 0.12);
+    border-radius: 10px;
+}
+
+.body_content h2{
+    font-size: larger;
+    text-align: center;
 }
 
 .table_content{
@@ -133,7 +139,6 @@ body{
 
 .body_title{
     text-align: center;
-    padding-bottom: 3%;
     font-size: 24pt;
 }
 
@@ -167,24 +172,30 @@ body{
 /* Inicio CSS cadastro */
 .formcad{
     border: none;
-    width: 40%;
+    width: 80%;
     margin: 0px auto;
 }
 
 .formcad label{
+    text-align: justify;
     display: inline-block;
     width: 30%;
 }
 
 .formcad input{
-    width: 60%;
+    width: 40%;
 }
 
-.botao_cad{
+.formcad div{
+    margin: 0px auto;
+    text-align: center;
+}
+
+#btn_cad{
     margin-top: 20px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 25%;
+    font-size: medium;
 }
 
 #confirmar_cad{
@@ -194,14 +205,18 @@ body{
 /* Inicio CSS Login */
 .login{
     border: none;
-    width: 40%;
+    width: 80%;
     margin: 0px auto;
 }
 
 .login label{
     text-align: justify;
     display: inline-block;
-    width: 76px;
+    width: 10%;
+}
+
+.login input{
+    width: 35%;
 }
 
 #form_login{
@@ -219,6 +234,9 @@ body{
     font-size: 13pt;
 }
 
-
-
+footer{
+    background-color: #C9D7E1;
+    margin: 50px;
+    font-size: 12pt;
+}
 

@@ -9,22 +9,7 @@
     <link rel="shortcut icon" type="imagex/png" href="imagem/logo_estacioney50px.png">
 </head>
 <body>
-    <div class="header">
-        <nav class="header_toolbar">
-            <a href="index.html"><figure class="image_toolbar"><img class="image_toolbar" src="imagem/logo_estacioney50px.png"></figure></a>
-            <ul class="ul_toolbar">
-                <li><a href="cadastro.html">Cadastro</a></li>
-                <li><a href="historico.html">Histórico</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li id="sair"><a href="index.html">Sair <img src="imagem/opcao-de-sair.png"></a></li>
-            </ul>
-
-        </nav>
-    </div>
-
-    <div class="header_content">
-        <div class="header_slogan">Sistema de Gerenciamento - Estacioney</div>
-    </div>
+    <?php include 'header.html';?>
 
     <div class="body_content">
         <h1 class="body_title">Histórico</h1>
@@ -68,6 +53,6 @@
         </table>
     </div>
 
-    <footer><p>Copyright © 2021 . Todos os direitos reservados.</p></footer>
+    <?php include 'footer.html';?>
 </body>
 </html>
