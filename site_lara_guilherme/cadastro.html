@@ -21,40 +21,42 @@
 
         </nav>
     </div>
-
-    <div class="header_content">
-        <div class="header_slogan">Sistema de Gerenciamento - Estacioney</div>
-    </div>
-    
     <div class="body_content">
         <h1 class="body_title">Cadastro</h1>
 
-            <form>
+            <form action="cadastro.php" method="post">
                 <fieldset class="formcad">
-                    <label>Nome</label>
-                    <input type="text" name="nome" maxlength="45">
-                    <label>E-mail</label>
-                    <input type="text" name="email"  maxlength="45">
-                    <label>Telefone</label>
-                    <input type="text" name="telefone"  maxlength="20">
-                    <label>Nascimento</label>
-                    <input type="date" name="nascimento" maxlength="20">
-                    <label>CPF/CNPJ</label>
-                    <input type="text" name="cpf" maxlength="20">
-                    <label>Senha</label>
-                    <input type="password" name="password" maxlength="20">
-                    <label for="sexo">Sexo:</label>
-                    <select id="sexo" name="sexo">
-                        <option value="fem" selected>Feminino</option>
-                        <option value="masc">Masculino</option>
-                        <option value="nb">Não binário</option>
-                        <option value="pnd">Prefiro não declarar</option>
-                    </select>
+                    <h2 id="title_cad">Dados da Empresa</h2>
+                    <div>
+                        <label>Nome da Empresa</label>
+                        <input type="text" name="nome" maxlength="45"><br>
+                        <label>CPF ou CNPJ</label>
+                        <input type="text" name="cpfcnpj" maxlength="20"><br>
+                        <label>E-mail</label>
+                        <input type="text" name="email"  maxlength="45"><br>
+                        <label>Telefone</label>
+                        <input type="text" name="telefone"  maxlength="20"><br>
+                        <label>Senha</label>
+                        <input type="password" name="password" maxlength="20">
+                    </div>
+                    <br>
+                    <h2 id="title_cad">Dados do Estacionamento</h2>
+                    <div>
+                        <label>Nome</label>
+                        <input type="text" name="nome" maxlength="45"><br>
+                        <label>Qtd de Vagas</label>
+                        <input type="integer" name="qtdVagas" maxlength="20"><br>
+                        <label>Valor Fixo</label>
+                        <input type="double" name="valFixo"  maxlength="45"><br>
+                        <label>Valor Excedente</label>
+                        <input type="double" name="valExced"  maxlength="20">
+                        <br>
+                        <input type="submit" value="Cadastrar" id="btn_cad">
+                    <div>
                 </fieldset>
             </form>
-            <nav class="botao_cad"><button type="submit" id="confirmar_cad">Cadastrar</button></nav>
     </div>
 
-    <footer><p>Copyright © 2021 . Todos os direitos reservados.</p></footer>
+    <?php include 'footer.html';?>
 </body>
 </html>
